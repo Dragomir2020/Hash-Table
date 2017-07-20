@@ -1,5 +1,5 @@
 
-# Hash-Table  <a href="https://travis-ci.org/Dragomir2020/Hash-Table.svg?branch=master" rel="some text">![Foo](https://travis-ci.org/Dragomir2020/BasicUnitTest.svg?branch=master,raw=true "Build Passing")</a>    <a href='https://coveralls.io/github/Dragomir2020/Max_Heap_Array?branch=master'><img src='https://coveralls.io/repos/github/Dragomir2020/Max_Heap_Array/badge.svg?branch=master' alt='Coverage Status' /></a>
+# Hash-Table  <a href="https://travis-ci.org/Dragomir2020/Hash-Table.svg?branch=master" rel="some text">![Foo](https://travis-ci.org/Dragomir2020/BasicUnitTest.svg?branch=master,raw=true "Build Passing")</a>    [![Coverage Status](https://coveralls.io/repos/github/Dragomir2020/Hash-Table/badge.svg?branch=master)](https://coveralls.io/github/Dragomir2020/Hash-Table?branch=master)
 
 
 - Hash Table Implemented in c++

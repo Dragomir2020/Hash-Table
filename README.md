@@ -1,5 +1,5 @@
 
-# Hash-Table  <a href="https://travis-ci.org/Dragomir2020/Hash-Table.svg?branch=master" rel="some text">![Foo](https://travis-ci.org/Dragomir2020/BasicUnitTest.svg?branch=master,raw=true "Build Passing")</a>    [![Coverage Status](https://coveralls.io/repos/github/Dragomir2020/Hash-Table/badge.svg?branch=master)](https://coveralls.io/github/Dragomir2020/Hash-Table?branch=master)
+# Hash-Table  [![Build Status](https://travis-ci.org/Dragomir2020/Hash-Table.svg?branch=master)](https://travis-ci.org/Dragomir2020/Hash-Table)    [![Coverage Status](https://coveralls.io/repos/github/Dragomir2020/Hash-Table/badge.svg?branch=master)](https://coveralls.io/github/Dragomir2020/Hash-Table?branch=master)
 
 
 - Hash Table Implemented in c++

@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-c -std=c++11 -Wall -ggdb -I. --coverage -O0
+CFLAGS=-v -c -std=c++11 -Wall -ggdb -I. --coverage -O0
 LDFLAGS=-std=c++11 --coverage
 SOURCES=hashsandbox.cpp 
 EXECUTABLE=hash
@@ -46,7 +46,7 @@ test: testrunner
 	./testrunner
 
 testrunner: testrunner.cpp 
-	g++ --coverage -O0 -I. -std=c++11 -ggdb -I$(CXXLOCATION)/ -o testrunner testrunner.cpp
+	g++ -v --coverage -O0 -I. -std=c++11 -ggdb -I$(CXXLOCATION)/ -o testrunner testrunner.cpp
 	
 
 testrunner.cpp: $(HEADERS) $(TESTSOURCES) 

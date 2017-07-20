@@ -7,7 +7,7 @@
 ## Install cxxtest
 - go to https://sourceforge.net/projects/cxxtest/files/cxxtest/
 - install folder in directory with code
-- Already included in directory
+- Already included in directory and not necessary unless most current version is required
 ## Make File
 - Open make file and change directory path to path where code cxxtest exists
 ## Install valgrind

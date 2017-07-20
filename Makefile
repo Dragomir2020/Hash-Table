@@ -1,6 +1,6 @@
 CC=g++
-CFLAGS=-c -std=c++11 -Wall -ggdb -I.
-LDFLAGS=-std=c++11
+CFLAGS=-c -std=c++11 -Wall -ggdb -I. --coverage -O0
+LDFLAGS=-std=c++11 --coverage
 SOURCES=hashsandbox.cpp 
 EXECUTABLE=hash
 TESTS=HashTable_test.h
@@ -39,14 +39,14 @@ clean:
 	
 # CXX Testing	
 #CXXLOCATION = /Users/dillondragomir/Data_structures/dragomdv/Lab7/cxxtest
-CXXLOCATION = /Users/dillondragomir/Data_structures/dragomdv/Lab7/cxxtest
+CXXLOCATION = cxxtest
 CXXTESTGEN = $(CXXLOCATION)/bin/cxxtestgen
 
 test: testrunner
 	./testrunner
 
 testrunner: testrunner.cpp 
-	g++ -I. -std=c++11 -ggdb -I$(CXXLOCATION)/ -o testrunner testrunner.cpp
+	g++ --coverage -O0 -I. -std=c++11 -ggdb -I$(CXXLOCATION)/ -o testrunner testrunner.cpp
 	
 
 testrunner.cpp: $(HEADERS) $(TESTSOURCES) 

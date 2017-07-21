@@ -294,9 +294,24 @@ public:
     TS_ASSERT_EQUALS(b.size(), 4);
     TS_ASSERT(!a.find(-21));
     TS_ASSERT(!b.find(-21));
-  }	
+  }
   
   void testCopy5() {
+    HashTable<int> a(hash_fn, 10);
+    a.insert(0);
+    a.insert(-1);
+    a.insert(-20);
+    a.insert(-2);
+    a.remove(-2);
+    a.remove(0);
+    HashTable<int> b(a);
+    TS_ASSERT_EQUALS(a.size(), 2);
+    TS_ASSERT_EQUALS(b.size(), 2);
+    TS_ASSERT(!a.find(-2));
+    TS_ASSERT(!b.find(-2));
+  }
+  
+  void testCopy6() {
     HashTable<string> a(hash_fn, 10);
     a.insert("bob");
     a.insert("joe");

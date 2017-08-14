@@ -11,15 +11,25 @@
 ## Make File
 - Open make file and change directory path to path where code cxxtest exists
 ## Install valgrind
-- sudo apt-get install valgrind
+```
+sudo apt-get install valgrind
+```
 ## Compile Code
-- make
+```
+make
+```
 - compiles sample code in heapsandbox
 - Use this as guide when using header
 ## Test Code
-- make test
+```
+make test
+```
 ## Check for Memory Leaks
-- valgrind ./testrunner
+```
+valgrind ./testrunner
+```
 ## Clean Directory of Compiled Files
-- make clean
+```
+make clean
+```
 - must do this to recompile code using make test
